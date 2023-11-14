@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #00b4d8;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: auto;
+    width: 100px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li:hover {
+    background-color: #0077b6;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.buscar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.buscar input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.buscar button {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    width: 55px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.logout {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    background-color: #0077b6;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.detalle-pelicula {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.detalle-pelicula img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+}
+
+.trailer {
+    align-items: center;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}

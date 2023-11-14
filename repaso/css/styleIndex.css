@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), #90e0ef),url(../img/Clouds-Meet-The-Sea-AI-Generated-4K-Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container{
+    text-align: center;
+}
+h1 {
+    color: #fff;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #00b4d8;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover {
+    background-color: #2980b9;
+}
